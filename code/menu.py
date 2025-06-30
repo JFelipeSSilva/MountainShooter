@@ -32,7 +32,7 @@ class Menu:
             self.menu_text(
                 text_size=50,
                 text="MOUNTAIN",
-                text_color=COLOR_ORANGE,
+                text_color=COLOR_WHITE,
                 text_center_pos=((WIN_WIDTH / 2), 70),
             )
 
@@ -40,7 +40,7 @@ class Menu:
             self.menu_text(
                 text_size=50,
                 text="SHOOTER",
-                text_color=COLOR_ORANGE,
+                text_color=COLOR_WHITE,
                 text_center_pos=((WIN_WIDTH / 2), 110),
             )
 
