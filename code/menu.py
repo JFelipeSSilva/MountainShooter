@@ -4,7 +4,7 @@ import pygame.image
 from pygame import Rect, Surface
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, COLOR_ORANGE, MENU_OPTION, COLOR_WHITE, COLOR_YELLOW
+from code.const import WIN_WIDTH, C_ORANGE, MENU_OPTION, C_WHITE, C_YELLOW
 
 
 class Menu:
@@ -32,7 +32,7 @@ class Menu:
             self.menu_text(
                 text_size=50,
                 text="MOUNTAIN",
-                text_color=COLOR_ORANGE,
+                text_color=C_ORANGE,
                 text_center_pos=((WIN_WIDTH / 2), 70),
             )
 
@@ -40,7 +40,7 @@ class Menu:
             self.menu_text(
                 text_size=50,
                 text="SHOOTER",
-                text_color=COLOR_ORANGE,
+                text_color=C_ORANGE,
                 text_center_pos=((WIN_WIDTH / 2), 110),
             )
 
@@ -50,14 +50,14 @@ class Menu:
                     self.menu_text(
                         text_size=20,
                         text=MENU_OPTION[i],
-                        text_color=COLOR_YELLOW,
+                        text_color=C_YELLOW,
                         text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i),
                     )
                 else:
                     self.menu_text(
                         text_size=20,
                         text=MENU_OPTION[i],
-                        text_color=COLOR_WHITE,
+                        text_color=C_WHITE,
                         text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i),
                     )
 
