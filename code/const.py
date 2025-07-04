@@ -136,7 +136,7 @@ WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
 # S
-SPAWN_TIME = 1500
+SPAWN_TIME = 1450
 SCORE_POS = {
     "Title": (WIN_WIDTH / 2, 50),
     "EnterName": (WIN_WIDTH / 2, 80),
