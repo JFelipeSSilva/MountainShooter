@@ -1,4 +1,4 @@
-![alt text] (https://github.com/JFelipeSSilva/MountainShooter/blob/master/asset/Player1.png)  Mountai SHooter  (https://github.com/JFelipeSSilva/MountainShooter/blob/master/asset/Player1.png)
+![alt text](https://github.com/JFelipeSSilva/MountainShooter/blob/master/asset/Player1.png) # Mountain Shooter ![alt text](https://github.com/JFelipeSSilva/MountainShooter/blob/master/asset/Player1.png)
 ========
 
 
