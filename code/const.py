@@ -32,8 +32,8 @@ ENTITY_DAMAGE = {
     "Player2Shot": 20,
     "Enemy1": 1,
     "Enemy2": 1,
-    "Enemy1Shot": 20,
-    "Enemy2Shot": 15,
+    "Enemy1Shot": 50,
+    "Enemy2Shot": 70,
 }
 
 ENTITY_SCORE = {
@@ -78,8 +78,8 @@ ENTITY_SPEED = {
     "Player2Shot": 3,
     "Enemy1": 2,
     "Enemy2": 1,
-    "Enemy1Shot": 5,
-    "Enemy2Shot": 2,
+    "Enemy1Shot": 6,
+    "Enemy2Shot": 4,
 }
 ENTITY_HEALTH = {
     "Level1Bg0": 999,
@@ -129,14 +129,14 @@ PLAYER_KEY_SHOOT = {"Player1": pygame.K_RCTRL, "Player2": pygame.K_LCTRL}
 
 # T
 TIMEOUT_STEP = 100  # 100ms
-TIMEOUT_LEVEL = 5000  # 20s
+TIMEOUT_LEVEL = 20000  # 20s
 
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
 # S
-SPAWN_TIME = 4000
+SPAWN_TIME = 1500
 SCORE_POS = {
     "Title": (WIN_WIDTH / 2, 50),
     "EnterName": (WIN_WIDTH / 2, 80),
