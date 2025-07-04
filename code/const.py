@@ -73,7 +73,7 @@ ENTITY_SPEED = {
     "Level2Bg3": 3,
     "Level2Bg4": 4,
     "Player1": 2,
-    "Player1Shot": 6,
+    "Player1Shot": 3,
     "Player2": 2,
     "Player2Shot": 3,
     "Enemy1": 2,
@@ -104,7 +104,7 @@ ENTITY_HEALTH = {
     "Enemy2Shot": 1,
 }
 ENTITY_SHOOT_DELAY = {
-    "Player1": 2,
+    "Player1": 20,
     "Player2": 15,
     "Enemy1": 100,
     "Enemy2": 200,
@@ -136,7 +136,7 @@ WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
 # S
-SPAWN_TIME = 100
+SPAWN_TIME = 4000
 SCORE_POS = {
     "Title": (WIN_WIDTH / 2, 50),
     "EnterName": (WIN_WIDTH / 2, 80),
